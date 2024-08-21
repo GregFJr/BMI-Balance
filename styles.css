@@ -1,0 +1,141 @@
+:root {
+  --main-blue: hsl(209, 69%, 82%);
+  --soft-blue: hsl(209, 69%, 95%);
+  --super-blue: #345ff6;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    padding: 0 1% 0 1%;
+}
+
+
+.measurement {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10%;
+}
+
+.measurement input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.measurement label {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.radio-btns {
+    display: flex;
+    gap: 35%;
+    margin-bottom: 10%;
+}
+
+
+.height, .weight {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 5%;
+}
+
+.bmi-intro {
+    border-radius: 10px;
+    padding: 5%;
+    background: linear-gradient(to left, var(--main-blue), var(--soft-blue));
+    height: 35em;
+    width: 50%;
+}
+
+.bmi-intro p{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 150%;
+}
+
+.bmi-intro h1{
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.bmi-calculator {
+    box-shadow: 8px 5px 5px rgba(128, 128, 128, 0.421);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.bmi-calculator h4 {
+    margin-bottom: 10%;
+}
+
+.welcome-msg {
+    background: #345ff6;
+    border-radius: 5px 150px 150px 5px;
+    padding-left: 5%;
+    height: 6.5em;
+    width: 95%;
+}
+
+.welcome-msg h4 {
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 10px 0 19px 0;
+}
+
+.welcome-msg p {
+    color: #FFFFFF;
+    font-weight: lighter;
+    z-index: auto;
+}
+
+.bmi-calculator {
+    background-color: #FFFFFF;
+    padding-left: 1%;
+    right: 25%;
+    top: 10%;
+    height: 21em;
+}
+
+.scoring {
+    background-color: #345ff6;
+    color: #FFFFFF;
+    font-weight: lighter;
+    border-radius: 5px 20px 20px 5px;
+    padding-left: 5%;
+    height: 4em;
+    width: 50%;
+    display: none;
+}
+
+.your-result {
+    display: grid;
+    max-width: 65em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.your-result img {
+    max-width: 70%;
+    height: auto;
+    position: relative;
+    left: 0;
+}
+
+
