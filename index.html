@@ -35,11 +35,11 @@
           </p>
         </div>
 
-        <div class="bmi-calculator">
+        <div class="bmi-calculator" id="bmi-calculator">
           <h4>Enter your details below</h4>
           <div class="radio-btns">
             <div class="metric">
-              <input type="radio" value="yes" id="metric" checked />
+              <input type="radio" value="yes" id="metric" />
               <label for="metric">Metric</label>
             </div>
             <div class="imperial">
@@ -59,16 +59,17 @@
             </div>
           </div>
 
-          <div class="welcome-msg">
+          <div class="welcome-msg" id="welcome-msg">
             <h4>Welcome!</h4>
             <p>enter your height and weight and you'll see BMI results here</p>
+            
           </div>
 
-          <div class="scoring">
+          <div class="scoring" id="scoring">
           <h4>Your BMI is...</h4>
 
           <!-- add score -->
-
+          <span id="bmi-result"></span>
           Your BMI suggests you're
           <!-- add classification -->. Your ideal weight is between
           <!-- add range -->.

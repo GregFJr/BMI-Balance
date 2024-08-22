@@ -77,6 +77,12 @@ main {
     box-shadow: 8px 5px 5px rgba(128, 128, 128, 0.421);
     border-radius: 10px;
     position: absolute;
+    background-color: #FFFFFF;
+    padding-left: 1%;
+    right: 25%;
+    top: 10%;
+    height: 21em;
+    z-index: 2;
 }
 
 .bmi-calculator h4 {
@@ -89,6 +95,7 @@ main {
     padding-left: 5%;
     height: 6.5em;
     width: 95%;
+    height: auto;
 }
 
 .welcome-msg h4 {
@@ -103,22 +110,16 @@ main {
     z-index: auto;
 }
 
-.bmi-calculator {
-    background-color: #FFFFFF;
-    padding-left: 1%;
-    right: 25%;
-    top: 10%;
-    height: 21em;
-}
-
 .scoring {
     background-color: #345ff6;
     color: #FFFFFF;
     font-weight: lighter;
-    border-radius: 5px 20px 20px 5px;
+    border-radius: 5px 150px 150px 5px;
     padding-left: 5%;
-    height: 4em;
-    width: 50%;
+    padding-bottom: 15px;
+    height: 7em;
+    width: 95%;
+    height: auto;
     display: none;
 }
 
